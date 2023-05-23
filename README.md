@@ -5,3 +5,5 @@ Figure1: execution cost of this ```akrkFundMe.sol``` contract created at previos
 
 To decrease this cost we gonna learn two keywords one is ```constant``` keyword nad another is ```immutable``` keyword <br>
 
+if you assing a variable outside of a function and never change it then use ```constant``` keyword 
+
