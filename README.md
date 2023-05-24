@@ -146,6 +146,11 @@ Figure6: if we don't use ```immutable``` keyword here ```address public owner;``
 figure7: if we  use ```immutable``` keyword here ```address public owner;``` then the execution cost is<br>
 ```422 gas```<br>
 
+the reason of ```constant``` keyword and ```immutable``` keyword save gas because they instead of storing variables at storage slot<br
+                                                                                                                                       store variables directly into the bytecode of the copntract<br>
+                                                                                                                                       
+                                                                                                                                     
+                                                                                                                                   
 
 
 
