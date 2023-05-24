@@ -125,6 +125,12 @@ at console we see the execution cost is ```2451 gas(Cost only applies when calle
 ![a2](https://github.com/C191068/Ali_khatami_Solidity14/assets/89090776/39a0797b-fb7e-4559-b54c-f884b2f1125e)
 Figure4: after we add constant keyword the exexcutioncost is ```351 gas (Cost only applies when called by a contract)```
 
+![a3](https://github.com/C191068/Ali_khatami_Solidity14/assets/89090776/2139cd25-fd0a-4528-8668-931bcc8320e6)
+Figure5: if we visit this link https://etherscan.io/gastracker we can get current gas prices on ethereum<br>
+
+
+
+
 
 
 
