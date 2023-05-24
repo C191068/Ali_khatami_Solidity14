@@ -114,5 +114,8 @@ modifier onlyOwner {
 ```
 
 ![a2](https://github.com/C191068/Ali_khatami_Solidity14/assets/89090776/f0a28b18-12c5-41a7-be01-55be3f1c1983)
+figure2:execution cost of this akrkFundMe.sol contract created at previos repository is now about 775327 gas<br>
+which has decreased about 19,590<br>
+
 
 
