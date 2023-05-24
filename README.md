@@ -138,6 +138,13 @@ The term "immutable" refers to something that cannot be changed or modified<br>
 
 ```immutable``` keyword have similiar gas saving like ```constant``` keyword<br>
 
+![a4](https://github.com/C191068/Ali_khatami_Solidity14/assets/89090776/1778ba1a-53bb-4f06-bd9b-db9bbd74ddf8)
+Figure6: if we don't use ```immutable``` keyword here ```address public owner;``` then the execution cost is<br>
+```2558 gas```<br>
+
+![a5](https://github.com/C191068/Ali_khatami_Solidity14/assets/89090776/02ec33be-7ab4-4e22-a955-1d72b8b37c11)
+figure7: if we  use ```immutable``` keyword here ```address public owner;``` then the execution cost is<br>
+```422 gas```<br>
 
 
 
