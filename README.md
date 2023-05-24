@@ -128,6 +128,10 @@ Figure4: after we add constant keyword the exexcutioncost is ```351 gas (Cost on
 ![a3](https://github.com/C191068/Ali_khatami_Solidity14/assets/89090776/2139cd25-fd0a-4528-8668-931bcc8320e6)
 Figure5: if we visit this link https://etherscan.io/gastracker we can get current gas prices on ethereum<br>
 
+47gwei= 47000000000 Wei <br>
+Now, without constant keyword , 2451 * 47000000000 = 115,197,000,000,000 wei = 0.000115197 Ether =  $0.21
+with constant keyword, 351 * 47000000000 = 16,497,000,000,000 wei = 0.000016497 Ether = $0.0300
+
 
 
 
