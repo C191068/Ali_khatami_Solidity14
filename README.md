@@ -117,5 +117,20 @@ modifier onlyOwner {
 figure2:execution cost of this akrkFundMe.sol contract created at previos repository is now about 775327 gas<br>
 which has decreased about 19,590<br>
 
+![a1](https://github.com/C191068/Ali_khatami_Solidity14/assets/89090776/beb2d224-78d5-4732-a7ed-37a2bae7d552)
+
+Figure3: If we remove the constant keyword and click the ```MINIMUM_USD``` button at the deployed contract <br>
+at console we see the execution cost is ```2451 gas(Cost only applies when called by a contract)```
+
+![a2](https://github.com/C191068/Ali_khatami_Solidity14/assets/89090776/39a0797b-fb7e-4559-b54c-f884b2f1125e)
+Figure4: after we add constant keyword the exexcutioncost is ```351 gas (Cost only applies when called by a contract)```
+
+
+
+
+
+
+
+
 
 
