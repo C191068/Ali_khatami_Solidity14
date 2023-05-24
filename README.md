@@ -11,6 +11,7 @@ we made a change in the code below
 
 ```
 
+
 //SPDX-License-Identifier:MIT
 
 pragma solidity ^0.8.8;
@@ -22,7 +23,7 @@ contract akrkFundMe  {
     using akrkPriceConverter for uint256;
     //if you assing a variable outside of a function and never change it then use constant keyword like below
 
-    uint256 public  constant  minimumUSD=50 * 1e18; //as getConversionRate() returns 18 zeroes after decimel place
+    uint256 public  constant  MINIMUM_USD=50 * 1e18; //as getConversionRate() returns 18 zeroes after decimel place
  
     address[] public funders;// we create an address array make it public 
 // we have use payable keyword with the function below to make it payable with any native blockchain currency
@@ -47,7 +48,7 @@ contract akrkFundMe  {
      
      //as we want to convert msg.value to USD we made the following changes
        
-        require(msg.value.getConversionRate() >= minimumUSD , "Not send enough");// to get accees to the 'value' at deploy at run transaction tab
+        require(msg.value.getConversionRate() >= MINIMUM_USD , "Not send enough");// to get accees to the 'value' at deploy at run transaction tab
         //1e18 is 1 ether, here the value must be greater than 1 ether
         //require is a checker it checks whether the value is greater than 1 ether
         // if not it is going to revert with an error messsage shown above
@@ -109,6 +110,7 @@ modifier onlyOwner {
     
 
 }
+
 
 
 ```
