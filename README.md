@@ -134,7 +134,7 @@ Figure5: if we visit this link https://etherscan.io/gastracker we can get curren
 Now, without constant keyword , 2451 * 47000000000 = 115,197,000,000,000 wei = 0.000115197 Ether =  $0.21<br>
 with constant keyword, 351 * 47000000000 = 16,497,000,000,000 wei = 0.000016497 Ether = $0.0300<br>
 
-
+The term "immutable" refers to something that cannot be changed or modified
 
 
 
